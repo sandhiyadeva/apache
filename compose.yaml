@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+ simplehttpd:
+  container name: mycontainer
+  context: .
+  dockerfile: Dockerfile
